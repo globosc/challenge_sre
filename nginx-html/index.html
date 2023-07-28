@@ -1,35 +1,4 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-</head>
-<body>
-    <h1>Hola, esta es mi página web.</h1>
-    <p>Este es un párrafo de ejemplo.</p>
-    <div>
-        <p>Otro párrafo que no contiene la palabra "Hola".</p>
-    </div>
-
-    <script>
-        // Función para encontrar el contenido que empieza con "Hola"
-        function findHelloContent() {
-            const elements = document.body.children;
-            let helloContent = '';
-
-            for (const element of elements) {
-                if (element.innerText.trim().startsWith('Hola')) {
-                    helloContent += element.innerHTML;
-                }
-            }
-
-            document.body.innerHTML = helloContent;
-        }
-
-        // Llamar a la función para encontrar el contenido
-        findHelloContent();
-    </script>
-</body>
+Hola, esta es mi página web.
 </html>
 
